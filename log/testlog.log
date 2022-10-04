@@ -797,3 +797,17 @@
 2022-10-01 10:41:40,001 - ebanking -INFO - entered username
 2022-10-01 10:41:43,163 - ebanking -INFO - entered password
 2022-10-01 10:41:44,168 - ebanking -INFO - Something went wrong.
+2022-10-03 22:21:24,621 - ebanking -INFO - URL is opened
+2022-10-03 22:22:37,080 - ebanking -INFO - user name provided
+2022-10-03 22:22:37,203 - ebanking -INFO - password provided
+2022-10-03 22:22:50,654 - ebanking -INFO - user name provided
+2022-10-03 22:22:50,784 - ebanking -INFO - password provided
+2022-10-03 22:22:54,080 - ebanking -INFO - Login test passed with incorrect credenciales
+2022-10-03 22:22:58,371 - ebanking -INFO - user name provided
+2022-10-03 22:22:58,512 - ebanking -INFO - password provided
+2022-10-03 22:23:01,788 - ebanking -INFO - Login test passed with incorrect credenciales
+2022-10-03 22:23:06,256 - ebanking -INFO - user name provided
+2022-10-03 22:23:06,384 - ebanking -INFO - password provided
+2022-10-03 22:23:09,663 - ebanking -INFO - Login test passed with incorrect credenciales
+2022-10-03 22:23:13,719 - ebanking -INFO - user name provided
+2022-10-03 22:23:13,857 - ebanking -INFO - password provided

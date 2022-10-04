@@ -15,7 +15,7 @@ import com.nopcommerce.testCases.*;
 
 public class TC_LoginTestDDT_002 extends BaseClass {
 
-	@Test(dataProvider = "DataProviderGenerico")
+	@Test(dataProvider = "LoginData")
 	public void loginTest(String user, String pwd) throws InterruptedException, IOException {
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(user);
@@ -37,6 +37,15 @@ public class TC_LoginTestDDT_002 extends BaseClass {
 		}
 	}
 		
+	@DataProvider(name = "LoginData")
+	public String[][] getDataProvider() throws IOException {
+		// TODO Auto-generated method stub
+		return super.getDataProviderGenerico("C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/LoginData.xlsx", "Sheet1");
+	
+	}
+	
+	
+	/*
 		@DataProvider(name = "LoginData")
 		String[][] getData() throws IOException {
 			//String path = System.getProperty("user.dir") + "/src/test/java/com/nopcommerce/testData/LoginData.xlsx";
@@ -55,7 +64,6 @@ public class TC_LoginTestDDT_002 extends BaseClass {
 
 			}
 			return logindata;
-		}
+		}*/
 
 	}
-}

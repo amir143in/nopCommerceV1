@@ -37,7 +37,7 @@ public class BaseClass {
 	public static Logger logger;
 
 	
-	//Passing the browser value from testng.xml file
+	//Passing the browser value from testng.xml files
 	@Parameters("browser")
 	@BeforeMethod
 	public void setup(String br) {
@@ -108,8 +108,8 @@ public class BaseClass {
 		driver.switchTo().alert().accept();
 	}
 	
-	@DataProvider(name = "DataProviderGenerico")
-	 public String[][] getDataProvider(String path, String sheetName) throws IOException {
+	//@DataProvider(name = "DataProviderGenerico")
+	 public String[][] getDataProviderGenerico(String path, String sheetName) throws IOException {
 			// String path = System.getProperty("user.dir") +
 			// "/src/test/java/com/inetbanking/testData/LoginData.xlsx";
 			//String path = "C:/Users/AAnsari/eclipse-workspace2022/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx";
