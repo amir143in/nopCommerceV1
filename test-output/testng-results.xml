@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T22:22:27 COT" name="nopCommerceV1" finished-at="2022-10-03T22:23:21 COT" duration-ms="53753">
+  <suite started-at="2022-10-04T08:52:02 COT" name="nopCommerceV1" finished-at="2022-10-04T08:57:29 COT" duration-ms="327368">
     <groups>
     </groups>
-    <test started-at="2022-10-03T22:22:27 COT" name="BankingApp Test" finished-at="2022-10-03T22:23:21 COT" duration-ms="53753">
-      <class name="com.nopcommerce.testCases.TC_LoginTestDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:29 COT" name="setup" finished-at="2022-10-03T22:22:36 COT" duration-ms="6926" status="PASS">
+    <test started-at="2022-10-04T08:52:02 COT" name="BankingApp Test" finished-at="2022-10-04T08:57:29 COT" duration-ms="327368">
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTestDDT_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:52:07 COT" name="setup" finished-at="2022-10-04T08:52:14 COT" duration-ms="7351" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:36 COT" name="loginTest" data-provider="LoginData" finished-at="2022-10-03T22:22:45 COT" duration-ms="8574" status="PASS">
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:52:14 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:52:41 COT" duration-ms="26994" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,80 @@
                 <![CDATA[admin]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing124]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/10/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test store 2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 1]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:45 COT" name="tearDown" finished-at="2022-10-03T22:22:46 COT" duration-ms="982" status="PASS">
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:52:41 COT" name="tearDown" finished-at="2022-10-04T08:52:42 COT" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:46 COT" name="setup" finished-at="2022-10-03T22:22:50 COT" duration-ms="4075" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:52:42 COT" name="setup" finished-at="2022-10-04T08:52:47 COT" duration-ms="4744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,100 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:50 COT" name="loginTest" data-provider="LoginData" finished-at="2022-10-03T22:22:54 COT" duration-ms="3597" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr83460]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qAbUzyj]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:54 COT" name="tearDown" finished-at="2022-10-03T22:22:54 COT" duration-ms="764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:54 COT" name="setup" finished-at="2022-10-03T22:22:58 COT" duration-ms="3363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:22:58 COT" name="loginTest" data-provider="LoginData" finished-at="2022-10-03T22:23:01 COT" duration-ms="3576" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr137319]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bAdYvyb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:01 COT" name="tearDown" finished-at="2022-10-03T22:23:02 COT" duration-ms="782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:02 COT" name="setup" finished-at="2022-10-03T22:23:06 COT" duration-ms="3494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:06 COT" name="loginTest" data-provider="LoginData" finished-at="2022-10-03T22:23:09 COT" duration-ms="3595" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr164225]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jahetAp]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:09 COT" name="tearDown" finished-at="2022-10-03T22:23:10 COT" duration-ms="802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:10 COT" name="setup" finished-at="2022-10-03T22:23:13 COT" duration-ms="3039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:13 COT" name="loginTest" data-provider="LoginData" finished-at="2022-10-03T22:23:20 COT" duration-ms="7231" status="PASS">
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:52:47 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:53:15 COT" duration-ms="28184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,15 +126,848 @@
                 <![CDATA[admin]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing125]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/11/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company2]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Your store name]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 2]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTestDDT_002@6fa51cd4]" started-at="2022-10-03T22:23:20 COT" name="tearDown" finished-at="2022-10-03T22:23:21 COT" duration-ms="843" status="PASS">
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:15 COT" name="tearDown" finished-at="2022-10-04T08:53:16 COT" duration-ms="1266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.nopcommerce.testCases.TC_LoginTestDDT_002 -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:16 COT" name="setup" finished-at="2022-10-04T08:53:22 COT" duration-ms="5089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:22 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:53:48 COT" duration-ms="26342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing126]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/12/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test store 2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:48 COT" name="tearDown" finished-at="2022-10-04T08:53:49 COT" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:49 COT" name="setup" finished-at="2022-10-04T08:53:54 COT" duration-ms="4472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:53:54 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:54:19 COT" duration-ms="25592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test4@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing127]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/13/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Your store name]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:19 COT" name="tearDown" finished-at="2022-10-04T08:54:21 COT" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:21 COT" name="setup" finished-at="2022-10-04T08:54:26 COT" duration-ms="4872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:26 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:54:53 COT" duration-ms="26834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test5@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing128]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/14/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test store 2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:53 COT" name="tearDown" finished-at="2022-10-04T08:54:54 COT" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:54 COT" name="setup" finished-at="2022-10-04T08:54:59 COT" duration-ms="4749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:54:59 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:55:24 COT" duration-ms="25360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test6@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing129]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/15/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company6]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Your store name]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:55:24 COT" name="tearDown" finished-at="2022-10-04T08:55:25 COT" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:55:25 COT" name="setup" finished-at="2022-10-04T08:55:29 COT" duration-ms="4203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:55:29 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:55:54 COT" duration-ms="25022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test7@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/16/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company7]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test store 2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:55:54 COT" name="tearDown" finished-at="2022-10-04T08:55:56 COT" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:55:56 COT" name="setup" finished-at="2022-10-04T08:56:00 COT" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:00 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:56:25 COT" duration-ms="24903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test8@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing131]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi8]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari8]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/17/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company8]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Your store name]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:25 COT" name="tearDown" finished-at="2022-10-04T08:56:26 COT" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:26 COT" name="setup" finished-at="2022-10-04T08:56:30 COT" duration-ms="4599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:30 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:56:56 COT" duration-ms="25930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test9@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing132]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/18/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company9]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Test store 2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 1]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:56 COT" name="tearDown" finished-at="2022-10-04T08:56:57 COT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:56:57 COT" name="setup" finished-at="2022-10-04T08:57:01 COT" duration-ms="4416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:57:01 COT" name="addNewCustomer" data-provider="AddNewCustomerData" finished-at="2022-10-04T08:57:28 COT" duration-ms="27066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test10@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Testing133]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Buchi10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ansari10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7/19/05]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Levis Company10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Your store name]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Vendors]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Vendor 2]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[New Customer has been added to the company 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTestDDT_004@6fa51cd4]" started-at="2022-10-04T08:57:28 COT" name="tearDown" finished-at="2022-10-04T08:57:29 COT" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTestDDT_004 -->
     </test> <!-- BankingApp Test -->
   </suite> <!-- nopCommerceV1 -->
 </testng-results>

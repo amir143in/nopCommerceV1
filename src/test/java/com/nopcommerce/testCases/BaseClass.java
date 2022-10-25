@@ -119,16 +119,16 @@ public class BaseClass {
 			int colcount = XLUtils.getCellCount(path, sheetName, 1);
 			System.out.println("The number of cell count : " + colcount);
 
-			String logindata[][] = new String[rownum][colcount];
-			System.out.println(logindata);
+			String excelData[][] = new String[rownum][colcount];
+			System.out.println(excelData);
 
 			for (int i = 1; i <= rownum; i++) {
 				for (int j = 0; j < colcount; j++) {
-					logindata[i - 1][j] = XLUtils.getCellData(path, sheetName, i, j);// 1 0
+					excelData[i - 1][j] = XLUtils.getCellData(path, sheetName, i, j);// 1 0
 				}
 
 			}
-			return logindata;
+			return excelData;
 		}
 
 }

@@ -36,34 +36,31 @@ public class TC_LoginTestDDT_002 extends BaseClass {
 			logger.info("Login test passed with incorrect credenciales");
 		}
 	}
-		
+
 	@DataProvider(name = "LoginData")
 	public String[][] getDataProvider() throws IOException {
 		// TODO Auto-generated method stub
-		return super.getDataProviderGenerico("C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/LoginData.xlsx", "Sheet1");
-	
+		return super.getDataProviderGenerico(
+				"C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/LoginData.xlsx", "Sheet1");
+
 	}
-	
-	
+
 	/*
-		@DataProvider(name = "LoginData")
-		String[][] getData() throws IOException {
-			//String path = System.getProperty("user.dir") + "/src/test/java/com/nopcommerce/testData/LoginData.xlsx";
-			String path = "C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/LoginData.xlsx";
-			int rownum = XLUtils.getRowCount(path, "Sheet1");
-			System.out.println("The number of rows count : " + rownum);
-			int colcount = XLUtils.getCellCount(path, "Sheet1", 1);
-			System.out.println("The number of cell count : " + colcount);
+	 * @DataProvider(name = "LoginData") String[][] getData() throws IOException {
+	 * //String path = System.getProperty("user.dir") +
+	 * "/src/test/java/com/nopcommerce/testData/LoginData.xlsx"; String path =
+	 * "C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/LoginData.xlsx";
+	 * int rownum = XLUtils.getRowCount(path, "Sheet1");
+	 * System.out.println("The number of rows count : " + rownum); int colcount =
+	 * XLUtils.getCellCount(path, "Sheet1", 1);
+	 * System.out.println("The number of cell count : " + colcount);
+	 * 
+	 * String logindata[][] = new String[rownum][colcount];
+	 * 
+	 * for (int i = 1; i <= rownum; i++) { for (int j = 0; j < colcount; j++) {
+	 * logindata[i - 1][j] = XLUtils.getCellData(path, "Sheet1", i, j);// 1 0 }
+	 * 
+	 * } return logindata; }
+	 */
 
-			String logindata[][] = new String[rownum][colcount];
-
-			for (int i = 1; i <= rownum; i++) {
-				for (int j = 0; j < colcount; j++) {
-					logindata[i - 1][j] = XLUtils.getCellData(path, "Sheet1", i, j);// 1 0
-				}
-
-			}
-			return logindata;
-		}*/
-
-	}
+}

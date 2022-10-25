@@ -77,26 +77,31 @@ public class TC_AddCustomerTestDDT_004 extends BaseClass {
 	}
 
 	@DataProvider(name = "AddNewCustomerData")
-	String[][] getData() throws IOException {
-		// String path = System.getProperty("user.dir") +
-		// "/src/test/java/com/inetbanking/testData/LoginData.xlsx";
-		String path = "C:/Users/AAnsari/eclipse-workspace2022/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx";
-		// String path = logindataPath;
-		int rownum = XLUtils.getRowCount(path, "Hoja1");
-		System.out.println("The number of rows count : " + rownum);
-		int colcount = XLUtils.getCellCount(path, "Hoja1", 1);
-		System.out.println("The number of cell count : " + colcount);
+	public String[][] getDataProviderNewCustomer() throws IOException {
+		// TODO Auto-generated method stub
+		return super.getDataProviderGenerico(
+				"C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx",
+				"Hoja1");
 
-		String logindata[][] = new String[rownum][colcount];
-		System.out.println(logindata);
-
-		for (int i = 1; i <= rownum; i++) {
-			for (int j = 0; j < colcount; j++) {
-				logindata[i - 1][j] = XLUtils.getCellData(path, "Hoja1", i, j);// 1 0
-			}
-
-		}
-		return logindata;
 	}
+
+	/*
+	 * @DataProvider(name = "AddNewCustomerData") String[][] getData() throws
+	 * IOException { // String path = System.getProperty("user.dir") + //
+	 * "/src/test/java/com/inetbanking/testData/LoginData.xlsx"; String path =
+	 * "C:/Users/AAnsari/eclipse-workspace2022/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx";
+	 * // String path = logindataPath; int rownum = XLUtils.getRowCount(path,
+	 * "Hoja1"); System.out.println("The number of rows count : " + rownum); int
+	 * colcount = XLUtils.getCellCount(path, "Hoja1", 1);
+	 * System.out.println("The number of cell count : " + colcount);
+	 * 
+	 * String logindata[][] = new String[rownum][colcount];
+	 * System.out.println(logindata);
+	 * 
+	 * for (int i = 1; i <= rownum; i++) { for (int j = 0; j < colcount; j++) {
+	 * logindata[i - 1][j] = XLUtils.getCellData(path, "Hoja1", i, j);// 1 0 }
+	 * 
+	 * } return logindata; }
+	 */
 
 }

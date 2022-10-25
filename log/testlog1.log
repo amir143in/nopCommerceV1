@@ -811,3 +811,76 @@
 2022-10-03 22:23:09,663 [main] INFO ebanking - Login test passed with incorrect credenciales
 2022-10-03 22:23:13,719 [main] INFO ebanking - user name provided
 2022-10-03 22:23:13,857 [main] INFO ebanking - password provided
+2022-10-04 08:17:38,744 [main] INFO ebanking - user name provided
+2022-10-04 08:17:38,870 [main] INFO ebanking - password provided
+2022-10-04 08:17:53,194 [main] INFO ebanking - user name provided
+2022-10-04 08:17:53,504 [main] INFO ebanking - password provided
+2022-10-04 08:17:56,834 [main] INFO ebanking - Login test passed with incorrect credenciales
+2022-10-04 08:18:02,023 [main] INFO ebanking - user name provided
+2022-10-04 08:18:02,174 [main] INFO ebanking - password provided
+2022-10-04 08:18:05,421 [main] INFO ebanking - Login test passed with incorrect credenciales
+2022-10-04 08:18:10,301 [main] INFO ebanking - user name provided
+2022-10-04 08:18:10,427 [main] INFO ebanking - password provided
+2022-10-04 08:18:13,666 [main] INFO ebanking - Login test passed with incorrect credenciales
+2022-10-04 08:18:19,466 [main] INFO ebanking - user name provided
+2022-10-04 08:18:19,587 [main] INFO ebanking - password provided
+2022-10-04 08:52:14,714 [main] INFO ebanking - The username is entered
+2022-10-04 08:52:14,839 [main] INFO ebanking - The password is entered
+2022-10-04 08:52:17,989 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:52:17,991 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:52:41,082 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:52:41,403 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:52:47,787 [main] INFO ebanking - The username is entered
+2022-10-04 08:52:47,945 [main] INFO ebanking - The password is entered
+2022-10-04 08:52:51,412 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:52:51,415 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:53:15,185 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:53:15,661 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:53:22,348 [main] INFO ebanking - The username is entered
+2022-10-04 08:53:22,458 [main] INFO ebanking - The password is entered
+2022-10-04 08:53:26,092 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:53:26,093 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:53:48,052 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:53:48,365 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:53:54,658 [main] INFO ebanking - The username is entered
+2022-10-04 08:53:54,795 [main] INFO ebanking - The password is entered
+2022-10-04 08:53:58,161 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:53:58,163 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:54:19,684 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:54:19,948 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:54:26,550 [main] INFO ebanking - The username is entered
+2022-10-04 08:54:26,666 [main] INFO ebanking - The password is entered
+2022-10-04 08:54:30,400 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:54:30,401 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:54:52,748 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:54:53,065 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:54:59,330 [main] INFO ebanking - The username is entered
+2022-10-04 08:54:59,516 [main] INFO ebanking - The password is entered
+2022-10-04 08:55:02,997 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:55:03,000 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:55:24,027 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:55:24,373 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:55:30,193 [main] INFO ebanking - The username is entered
+2022-10-04 08:55:30,309 [main] INFO ebanking - The password is entered
+2022-10-04 08:55:33,732 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:55:33,733 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:55:54,488 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:55:54,948 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:56:00,629 [main] INFO ebanking - The username is entered
+2022-10-04 08:56:00,745 [main] INFO ebanking - The password is entered
+2022-10-04 08:56:03,929 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:56:03,930 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:56:24,933 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:56:25,238 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:56:30,905 [main] INFO ebanking - The username is entered
+2022-10-04 08:56:31,022 [main] INFO ebanking - The password is entered
+2022-10-04 08:56:34,588 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:56:34,596 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:56:56,352 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:56:56,588 [main] INFO ebanking - The Test case passed....!!!!
+2022-10-04 08:57:02,064 [main] INFO ebanking - The username is entered
+2022-10-04 08:57:02,184 [main] INFO ebanking - The password is entered
+2022-10-04 08:57:05,866 [main] INFO ebanking - Login button is clicked
+2022-10-04 08:57:05,867 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-10-04 08:57:28,580 [main] INFO ebanking - Validation started...........!
+2022-10-04 08:57:28,828 [main] INFO ebanking - The Test case passed....!!!!
