@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007">
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTestDDT_004_Original">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="searchCustomer"/>
+          <include name="addNewCustomer"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007 -->
+      </class> <!-- com.nopcommerce.testCases.TC_AddCustomerTestDDT_004_Original -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

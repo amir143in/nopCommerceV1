@@ -40,8 +40,8 @@ public class TC_SearchCustomerWithInvalidEmailDDT_007 extends BaseClass {
 		custEnq.clickButtonSearch();
 		Thread.sleep(3000);
 
-		Select select = new Select(driver.findElement(By.name("customers-grid_length")));
-		select.selectByVisibleText("50");
+	//	Select select = new Select(driver.findElement(By.name("customers-grid_length")));
+	//	select.selectByVisibleText("50");
 
 		String displayMessage = driver.findElement(By.id("customers-grid_info")).getText();
 		System.out.println("The value returned after search is : " + displayMessage);
@@ -56,27 +56,30 @@ public class TC_SearchCustomerWithInvalidEmailDDT_007 extends BaseClass {
 		// return flag;
 
 	}
-
+	
 	@DataProvider(name = "AddNewCustomerData2")
-	String[][] getData() throws IOException {
-		// String path = System.getProperty("user.dir") +
-		// "/src/test/java/com/inetbanking/testData/LoginData.xlsx";
-		String path = "C:/Users/AAnsari/eclipse-workspace2022/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx";
-		// String path = logindataPath;
-		int rownum = XLUtils.getRowCount(path, "Hoja2");
-		System.out.println("The number of rows count : " + rownum);
-		int colcount = XLUtils.getCellCount(path, "Hoja2", 1);
-		System.out.println("The number of cell count : " + colcount);
-
-		String logindata[][] = new String[rownum][colcount];
-		System.out.println(logindata);
-
-		for (int i = 1; i <= rownum; i++) {
-			for (int j = 0; j < colcount; j++) {
-				logindata[i - 1][j] = XLUtils.getCellData(path, "Hoja2", i, j);// 1 0
-			}
-
-		}
-		return logindata;
+	public String[][] getDataProviderNewCustomer() throws IOException {
+		// TODO Auto-generated method stub
+		return super.getDataProviderGenerico(
+				"C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx",
+				"Hoja4");
 	}
+	/*
+	 * @DataProvider(name = "AddNewCustomerData2") String[][] getData() throws
+	 * IOException { // String path = System.getProperty("user.dir") + //
+	 * "/src/test/java/com/inetbanking/testData/LoginData.xlsx"; String path =
+	 * "C:/Users/AAnsari/eclipse-workspace2022/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx";
+	 * // String path = logindataPath; int rownum = XLUtils.getRowCount(path,
+	 * "Hoja2"); System.out.println("The number of rows count : " + rownum); int
+	 * colcount = XLUtils.getCellCount(path, "Hoja2", 1);
+	 * System.out.println("The number of cell count : " + colcount);
+	 * 
+	 * String logindata[][] = new String[rownum][colcount];
+	 * System.out.println(logindata);
+	 * 
+	 * for (int i = 1; i <= rownum; i++) { for (int j = 0; j < colcount; j++) {
+	 * logindata[i - 1][j] = XLUtils.getCellData(path, "Hoja2", i, j);// 1 0 }
+	 * 
+	 * } return logindata; }
+	 */
 }

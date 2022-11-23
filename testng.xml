@@ -8,7 +8,7 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.testCases.TC_AddCustomerTestDDT_004" />
+			<class name="com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007" />
 			
 		</classes>
 	</test>
