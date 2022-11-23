@@ -7,13 +7,13 @@
   <test thread-count="5" name="BankingApp Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="searchCustomer"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007 -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [nopCommerceV1] -->

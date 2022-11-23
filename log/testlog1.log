@@ -1093,3 +1093,12 @@
 2022-11-23 17:26:12,930 [main] INFO ebanking - Providing customer details........!!!!!!!!!
 2022-11-23 17:26:20,587 [main] INFO ebanking - There is no customer available with this email id
 2022-11-23 17:26:20,587 [main] INFO ebanking - This is a valid customer.........
+2022-11-23 18:24:16,406 [main] INFO ebanking - URL is opened
+2022-11-23 18:24:22,713 [main] INFO ebanking - entered username
+2022-11-23 18:24:25,924 [main] INFO ebanking - entered password
+2022-11-23 18:24:26,730 [main] INFO ebanking - Something went wrong.
+2022-11-23 18:28:09,092 [main] INFO ebanking - URL is opened
+2022-11-23 18:28:15,472 [main] INFO ebanking - entered username
+2022-11-23 18:28:18,656 [main] INFO ebanking - entered password
+2022-11-23 18:28:25,445 [main] INFO ebanking - Test case is passed!!!
+2022-11-23 18:28:26,590 [main] INFO ebanking - Logout Successfully
