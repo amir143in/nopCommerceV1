@@ -35,6 +35,7 @@ public class BaseClass {
 	public String logindataPath = readconfig.getLoginDataPath();
 	public static WebDriver driver;
 	public static Logger logger;
+	public static String projectPath = System.getProperty("user.dir");
 
 	
 	//Passing the browser value from testng.xml files

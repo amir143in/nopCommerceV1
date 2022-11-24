@@ -1156,3 +1156,24 @@
 2022-11-23 20:58:18,521 - ebanking -INFO - Providing customer details........!!!!!!!!!
 2022-11-23 20:58:26,362 - ebanking -INFO - There is no customer available with this email id
 2022-11-23 20:58:26,364 - ebanking -INFO - This is a valid customer.........
+2022-11-23 21:11:08,516 - ebanking -INFO - URL is opened
+2022-11-23 21:11:14,729 - ebanking -INFO - entered username
+2022-11-23 21:11:17,868 - ebanking -INFO - entered password
+2022-11-23 21:11:24,822 - ebanking -INFO - Test case is passed!!!
+2022-11-23 21:11:25,821 - ebanking -INFO - Logout Successfully
+2022-11-23 21:15:02,891 - ebanking -INFO - URL is opened
+2022-11-23 21:15:09,125 - ebanking -INFO - entered username
+2022-11-23 21:15:12,277 - ebanking -INFO - entered password
+2022-11-23 21:15:18,125 - ebanking -INFO - Test case is passed!!!
+2022-11-23 21:15:19,161 - ebanking -INFO - Logout Successfully
+2022-11-23 21:20:44,251 - ebanking -INFO - URL is opened
+2022-11-23 21:20:50,469 - ebanking -INFO - entered username
+2022-11-23 21:20:53,616 - ebanking -INFO - entered password
+2022-11-23 21:21:00,276 - ebanking -INFO - Test case is passed!!!
+2022-11-23 21:21:01,344 - ebanking -INFO - Logout Successfully
+2022-11-24 08:19:49,688 - ebanking -INFO - The username is entered
+2022-11-24 08:19:49,841 - ebanking -INFO - The password is entered
+2022-11-24 08:19:52,799 - ebanking -INFO - Login button is clicked
+2022-11-24 08:19:52,800 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-24 08:20:01,016 - ebanking -INFO - There is no customer available with this email id
+2022-11-24 08:20:01,016 - ebanking -INFO - This is a valid customer.........

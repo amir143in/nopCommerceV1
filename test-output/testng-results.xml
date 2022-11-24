@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-23T18:27:59 COT" name="nopCommerceV1" finished-at="2022-11-23T18:28:27 COT" duration-ms="27703">
+  <suite started-at="2022-11-24T08:19:38 COT" name="nopCommerceV1" finished-at="2022-11-24T08:20:01 COT" duration-ms="23267">
     <groups>
     </groups>
-    <test started-at="2022-11-23T18:27:59 COT" name="BankingApp Test" finished-at="2022-11-23T18:28:27 COT" duration-ms="27703">
-      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1349883]" started-at="2022-11-23T18:28:00 COT" name="setup" finished-at="2022-11-23T18:28:09 COT" duration-ms="8583" status="PASS">
+    <test started-at="2022-11-24T08:19:38 COT" name="BankingApp Test" finished-at="2022-11-24T08:20:01 COT" duration-ms="23267">
+      <class name="com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007@6fa51cd4]" started-at="2022-11-24T08:19:40 COT" name="setup" finished-at="2022-11-24T08:19:49 COT" duration-ms="9118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1349883]" started-at="2022-11-23T18:28:09 COT" name="loginTest" description="This test validates login functionality" finished-at="2022-11-23T18:28:26 COT" duration-ms="17504" status="PASS">
+        <test-method signature="searchCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007@6fa51cd4]" started-at="2022-11-24T08:19:49 COT" name="searchCustomer" data-provider="AddNewCustomerData2" finished-at="2022-11-24T08:20:01 COT" duration-ms="12341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testsssssss1@xyz.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1349883]" started-at="2022-11-23T18:28:26 COT" name="tearDown" finished-at="2022-11-23T18:28:27 COT" duration-ms="1006" status="PASS">
+        </test-method> <!-- searchCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007@6fa51cd4]" started-at="2022-11-24T08:20:01 COT" name="tearDown" finished-at="2022-11-24T08:20:01 COT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.nopcommerce.testCases.TC_SearchCustomerWithInvalidEmailDDT_007 -->
     </test> <!-- BankingApp Test -->
   </suite> <!-- nopCommerceV1 -->
 </testng-results>
