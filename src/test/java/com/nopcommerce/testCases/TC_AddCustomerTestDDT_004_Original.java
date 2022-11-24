@@ -82,7 +82,8 @@ public class TC_AddCustomerTestDDT_004_Original extends BaseClass {
 	public String[][] getDataProviderNewCustomer() throws IOException {
 		// TODO Auto-generated method stub
 		return super.getDataProviderGenerico(
-				"C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx",
+				projectPath+
+				"/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx",
 				"Hoja1");
 
 	}

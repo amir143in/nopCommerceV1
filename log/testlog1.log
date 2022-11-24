@@ -1201,3 +1201,14 @@
 2022-11-24 10:01:40,326 [main] INFO ebanking - Providing customer details........!!!!!!!!!
 2022-11-24 10:01:48,083 [main] INFO ebanking - There is no customer available with this email id
 2022-11-24 10:01:48,099 [main] INFO ebanking - This is a valid customer.........
+2022-11-24 10:04:29,217 [main] INFO ebanking - The username is entered
+2022-11-24 10:04:29,338 [main] INFO ebanking - The password is entered
+2022-11-24 10:04:31,763 [main] INFO ebanking - Login button is clicked
+2022-11-24 10:04:31,763 [main] INFO ebanking - Providing customer details........!!!!!!!!!
+2022-11-24 10:04:39,515 [main] INFO ebanking - There is no customer available with this email id
+2022-11-24 10:04:39,515 [main] INFO ebanking - This is a valid customer.........
+2022-11-24 10:46:07,859 [main] INFO ebanking - URL is opened
+2022-11-24 10:46:14,136 [main] INFO ebanking - entered username
+2022-11-24 10:46:17,312 [main] INFO ebanking - entered password
+2022-11-24 10:46:22,922 [main] INFO ebanking - Test case is passed!!!
+2022-11-24 10:46:23,998 [main] INFO ebanking - Logout Successfully
