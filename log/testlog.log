@@ -1177,3 +1177,9 @@
 2022-11-24 08:19:52,800 - ebanking -INFO - Providing customer details........!!!!!!!!!
 2022-11-24 08:20:01,016 - ebanking -INFO - There is no customer available with this email id
 2022-11-24 08:20:01,016 - ebanking -INFO - This is a valid customer.........
+2022-11-24 08:29:21,322 - ebanking -INFO - The username is entered
+2022-11-24 08:29:21,459 - ebanking -INFO - The password is entered
+2022-11-24 08:29:24,706 - ebanking -INFO - Login button is clicked
+2022-11-24 08:29:24,706 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-24 08:29:32,620 - ebanking -INFO - There is no customer available with this email id
+2022-11-24 08:29:32,620 - ebanking -INFO - This is a valid customer.........
