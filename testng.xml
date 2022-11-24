@@ -9,7 +9,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.nopcommerce.testCases.TC_LoginTest_001" />
-			
+		
 		</classes>
 	</test>
 	<!-- Test -->

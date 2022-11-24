@@ -61,9 +61,10 @@ public class TC_SearchCustomerWithInvalidEmailDDT_007 extends BaseClass {
 	public String[][] getDataProviderNewCustomer() throws IOException {
 		// TODO Auto-generated method stub
 		return super.getDataProviderGenerico(
-				"../testData/AddCustomerNew.xlsx",
+				"C:/Users/AAnsari/git/nopCommerceV1/src/test/java/com/nopcommerce/testData/AddCustomerNew.xlsx",
 				"Hoja4");
 	}
+	
 	/*
 	 * @DataProvider(name = "AddNewCustomerData2") String[][] getData() throws
 	 * IOException { // String path = System.getProperty("user.dir") + //

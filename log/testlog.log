@@ -1112,3 +1112,47 @@
 2022-11-23 20:32:49,696 - ebanking -INFO - entered password
 2022-11-23 20:32:55,279 - ebanking -INFO - Test case is passed!!!
 2022-11-23 20:32:56,314 - ebanking -INFO - Logout Successfully
+2022-11-23 20:42:48,051 - ebanking -INFO - URL is opened
+2022-11-23 20:42:54,314 - ebanking -INFO - entered username
+2022-11-23 20:42:57,455 - ebanking -INFO - entered password
+2022-11-23 20:43:03,313 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:43:04,305 - ebanking -INFO - Logout Successfully
+2022-11-23 20:52:52,092 - ebanking -INFO - URL is opened
+2022-11-23 20:52:58,295 - ebanking -INFO - entered username
+2022-11-23 20:53:01,450 - ebanking -INFO - entered password
+2022-11-23 20:53:08,342 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:53:09,300 - ebanking -INFO - Logout Successfully
+2022-11-23 20:53:13,855 - ebanking -INFO - The username is entered
+2022-11-23 20:53:13,974 - ebanking -INFO - The password is entered
+2022-11-23 20:53:16,470 - ebanking -INFO - Login button is clicked
+2022-11-23 20:53:16,470 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-23 20:53:41,028 - ebanking -INFO - Validation started...........!
+2022-11-23 20:53:41,343 - ebanking -INFO - The Test case passed....!!!!
+2022-11-23 20:55:13,709 - ebanking -INFO - URL is opened
+2022-11-23 20:55:20,260 - ebanking -INFO - entered username
+2022-11-23 20:55:23,539 - ebanking -INFO - entered password
+2022-11-23 20:55:30,234 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:55:31,476 - ebanking -INFO - Logout Successfully
+2022-11-23 20:55:37,310 - ebanking -INFO - The username is entered
+2022-11-23 20:55:37,455 - ebanking -INFO - The password is entered
+2022-11-23 20:55:40,041 - ebanking -INFO - Login button is clicked
+2022-11-23 20:55:40,042 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-23 20:56:03,165 - ebanking -INFO - Validation started...........!
+2022-11-23 20:56:03,588 - ebanking -INFO - The Test case passed....!!!!
+2022-11-23 20:57:22,686 - ebanking -INFO - URL is opened
+2022-11-23 20:57:28,930 - ebanking -INFO - entered username
+2022-11-23 20:57:32,086 - ebanking -INFO - entered password
+2022-11-23 20:57:37,831 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:57:39,109 - ebanking -INFO - Logout Successfully
+2022-11-23 20:57:43,585 - ebanking -INFO - The username is entered
+2022-11-23 20:57:43,701 - ebanking -INFO - The password is entered
+2022-11-23 20:57:46,282 - ebanking -INFO - Login button is clicked
+2022-11-23 20:57:46,283 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-23 20:58:09,321 - ebanking -INFO - Validation started...........!
+2022-11-23 20:58:09,682 - ebanking -INFO - The Test case passed....!!!!
+2022-11-23 20:58:15,705 - ebanking -INFO - The username is entered
+2022-11-23 20:58:15,826 - ebanking -INFO - The password is entered
+2022-11-23 20:58:18,520 - ebanking -INFO - Login button is clicked
+2022-11-23 20:58:18,521 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-23 20:58:26,362 - ebanking -INFO - There is no customer available with this email id
+2022-11-23 20:58:26,364 - ebanking -INFO - This is a valid customer.........
