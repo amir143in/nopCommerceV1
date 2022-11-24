@@ -1183,3 +1183,15 @@
 2022-11-24 08:29:24,706 - ebanking -INFO - Providing customer details........!!!!!!!!!
 2022-11-24 08:29:32,620 - ebanking -INFO - There is no customer available with this email id
 2022-11-24 08:29:32,620 - ebanking -INFO - This is a valid customer.........
+2022-11-24 09:26:50,962 - ebanking -INFO - The username is entered
+2022-11-24 09:26:51,101 - ebanking -INFO - The password is entered
+2022-11-24 09:26:53,789 - ebanking -INFO - Login button is clicked
+2022-11-24 09:26:53,790 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-24 09:27:01,458 - ebanking -INFO - There is no customer available with this email id
+2022-11-24 09:27:01,474 - ebanking -INFO - This is a valid customer.........
+2022-11-24 09:27:50,830 - ebanking -INFO - The username is entered
+2022-11-24 09:27:50,953 - ebanking -INFO - The password is entered
+2022-11-24 09:27:53,274 - ebanking -INFO - Login button is clicked
+2022-11-24 09:27:53,275 - ebanking -INFO - Providing customer details........!!!!!!!!!
+2022-11-24 09:28:00,945 - ebanking -INFO - There is no customer available with this email id
+2022-11-24 09:28:00,945 - ebanking -INFO - This is a valid customer.........
