@@ -1102,3 +1102,13 @@
 2022-11-23 18:28:18,656 - ebanking -INFO - entered password
 2022-11-23 18:28:25,445 - ebanking -INFO - Test case is passed!!!
 2022-11-23 18:28:26,590 - ebanking -INFO - Logout Successfully
+2022-11-23 20:30:54,475 - ebanking -INFO - URL is opened
+2022-11-23 20:31:00,697 - ebanking -INFO - entered username
+2022-11-23 20:31:03,874 - ebanking -INFO - entered password
+2022-11-23 20:31:10,706 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:31:11,725 - ebanking -INFO - Logout Successfully
+2022-11-23 20:32:40,325 - ebanking -INFO - URL is opened
+2022-11-23 20:32:46,542 - ebanking -INFO - entered username
+2022-11-23 20:32:49,696 - ebanking -INFO - entered password
+2022-11-23 20:32:55,279 - ebanking -INFO - Test case is passed!!!
+2022-11-23 20:32:56,314 - ebanking -INFO - Logout Successfully
